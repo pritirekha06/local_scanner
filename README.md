@@ -29,7 +29,7 @@ services – Check running services on MY PC
 
 all – Run all checks (ports + network + services)
 
-###Examples:
+### Examples:
 ```
 python mycheck.py me
 ```
@@ -43,11 +43,11 @@ python mycheck.py services
 python mycheck.py all
 ```
 
-###quickweb.py
+### quickweb.py
 ```
 python quickweb.py [local_ip]
 ```
-###Arguments:
+### Arguments:
 
 local_ip (optional) – IP to check for web services
 
@@ -55,7 +55,7 @@ Default: 127.0.0.1 (your own computer)
 
 Allowed: 127.0.0.1, localhost, 192.168.x.x, 10.x.x.x
 
-###Examples:
+### Examples:
 
 ```
 python quickweb.py
@@ -70,14 +70,14 @@ my_services.txt – detected services running on your PC
 
 my_web_servers.txt – detected web servers
 
-###Output
+### Output
 Results are printed directly in the terminal / console
 
 Report files are saved automatically if something is found
 
 Output depends on current system and network state
 
-###Disclaimer
+## Disclaimer
 
 Use this tool ONLY on computers and networks you own or have explicit permission to scan.
 
