@@ -22,9 +22,9 @@ python mycheck.py <command>
 ### Commands:
 
 - ``me`` – Scan MY computer for open ports
-- network – Scan MY local network for connected devices
-- services – Check running services on MY PC
-- all – Run all checks (ports + network + services)
+- ``network`` – Scan MY local network for connected devices
+- ``services`` – Check running services on MY PC
+- ``all`` – Run all checks (ports + network + services)
 
 ### QuickWeb.py
 ```
