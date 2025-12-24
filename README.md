@@ -19,7 +19,7 @@ A simple Python-based scanner to check **my own computer and home network** for 
 ```bash
 python mycheck.py <command>
 ```
-Commands:
+### Commands:
 
 me – Scan MY computer for open ports
 
@@ -28,20 +28,6 @@ network – Scan MY local network for connected devices
 services – Check running services on MY PC
 
 all – Run all checks (ports + network + services)
-
-### Examples:
-```
-python mycheck.py me
-```
-```
-python mycheck.py network
-```
-```
-python mycheck.py services
-```
-```
-python mycheck.py all
-```
 
 ### quickweb.py
 ```
@@ -60,8 +46,10 @@ Allowed: 127.0.0.1, localhost, 192.168.x.x, 10.x.x.x
 ```
 python quickweb.py
 ```
-python quickweb.py 192.168.1.50
-What It Saves
+python quickweb.py 192.168.1.50 – Scan a device on your network
+
+### What It Saves
+
 my_open_ports.txt – list of open ports on your computer
 
 my_network_devices.txt – devices detected on your local network
