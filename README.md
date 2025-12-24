@@ -49,8 +49,7 @@ python quickweb.py
 
 ## Disclaimer
 
-Use this tool ONLY on computers and networks you own or have explicit permission to scan.
+Use this tool ONLY on computers and networks you own.
 This project scans local IPs only (127.0.0.1, localhost, 192.168.x.x, 10.x.x.x) and does NOT scan public websites.
-
 
 
