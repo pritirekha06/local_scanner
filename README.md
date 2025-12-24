@@ -37,10 +37,10 @@ python quickweb.py
 
 ### What It Saves
 
-- my_open_ports.txt – list of open ports on your computer
-- my_network_devices.txt – devices detected on your local network
-- my_services.txt – detected services running on your PC
-- my_web_servers.txt – detected web servers
+- ``my_open_ports.txt`` – list of open ports on your computer
+- ``my_network_devices.txt`` – devices detected on your local network
+- ``my_services.txt`` – detected services running on your PC
+- ``my_web_servers.txt`` – detected web servers
 
 ### Output
 - Results are printed directly in the terminal / console
