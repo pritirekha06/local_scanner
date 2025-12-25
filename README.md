@@ -26,6 +26,12 @@ python mycheck.py <command>
 - ``services`` – Check running services on MY PC
 - ``all`` – Run all checks (ports + network + services)
 
+### What It Saves
+
+- ``my_open_ports.txt`` – list of open ports on your computer
+- ``my_network_devices.txt`` – devices detected on your local network
+- ``my_services.txt`` – detected services running on your PC
+
 ### QuickWeb.py
 ```
 python quickweb.py 
@@ -36,10 +42,6 @@ python quickweb.py
 - Looks for common web ports (HTTP, HTTPS, dev servers)
 
 ### What It Saves
-
-- ``my_open_ports.txt`` – list of open ports on your computer
-- ``my_network_devices.txt`` – devices detected on your local network
-- ``my_services.txt`` – detected services running on your PC
 - ``my_web_servers.txt`` – detected web servers
 
 ### Output
