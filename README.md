@@ -42,7 +42,7 @@ python quickweb.py
 - Looks for common web ports (HTTP, HTTPS, dev servers)
 
 ### What It Saves
-- ``my_web_servers.txt`` – detected web servers.
+- ``my_web_servers.txt`` – detected web servers
 
 ### Output
 - Results are printed directly in the terminal / console
